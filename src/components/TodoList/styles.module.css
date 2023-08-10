@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+li {
+  min-width: 730px;
+  background-color: #4B4D52;
+  border-radius: 6px;
+  list-style: none;
+  height: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.btnExcluir {
+  background: transparent;
+  cursor: pointer;
+  border: none;
+}

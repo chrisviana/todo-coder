@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+input {
+  height: 45px;
+  width: 600px;
+  border-radius: 6px;
+  border: none;
+  padding: 1rem;
+
+  &:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  }
+}
+
+.btnAdicionar {
+  height: 45px;
+  width: 100px;
+  border-radius: 6px;
+  background: #00C896;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    background: #00AF9C;
+    transition: background 0.2s;
+  }
+}
